@@ -1,23 +1,71 @@
 ---
 layout: ../../../layouts/project.astro
-title: Lunar Eclipse
+title: Apprendre les bases de JavaScript
 client: Self
 publishDate: 2020-03-04 00:00:00
 img: https://images.unsplash.com/photo-1548391350-1a529f6ea42d?fit=crop&w=1400&h=700&q=75
-description: |
-  We took some cool pictures of the moon and made a website about it.
+description: Base de Javascript
 tags:
-  - design
+  - js
   - dev
-  - branding
 ---
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+Liste des ressouce web pour apprendre:
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+- OpenClassRoom:
+- -
+- Graphik Art
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+Etape pour apprendre:
 
-Caerphilly parmesan manchego. Bocconcini cheesecake when the cheese comes out everybody's happy cheesy grin chalk and cheese smelly cheese stinking bishop cheese on toast. Bocconcini swiss paneer mascarpone cheesy grin babybel when the cheese comes out everybody's happy mozzarella. Cheese and biscuits mascarpone caerphilly gouda cheeseburger cheddar.
+- Environement frontend & backend & BDD
+- IDE
+- HTML
+- - Accesibilité
+- - Sémantique
+- CSS
+- - SCSS
+- Navigateur
+- Javascript (coté navigateur)
+- - bases de language
+- - - Variable
+- - - - primiteve
+- - - - - boolean
+- - - - - Number
+- - - - Complexe
+- - - - - Array
+- - - - - - Pointer mémoire
+- - - - - Object
+- - - - - String
+- - - function
+- Best practice
+- - Convention d'écriture
+- - Découpage
+- Programation functionnelle
+- POO
+- - Typescipte
+- les tests code
+- Algorithimie en js
+- npm (package manager)
+- git
+- - github
+- - gitlab
+- - bitbucket
+- Javascript coté backend
+- Framework | lib
+- - next
+- - Angular
+- - React
+- Agilité SCRUM
 
-Cheese and biscuits cheesy grin roquefort. Ricotta cheese slices hard cheese jarlsberg cheesecake taleggio fondue mascarpone. Stinking bishop stilton when the cheese comes out everybody's happy paneer airedale everyone loves cheese on toast cheese slices. Ricotta cut the cheese cheese triangles babybel cream cheese ricotta.
+Cours sur openClassRoom:
+
+outil IDE vsc
+Pourquoi apprendre js et commencer par js
+codé un jeu par concept
+
+- Variable
+- - primive et complexe
+- function
+- object (voir typescript sinon expliquer)
+- trouver des resources
