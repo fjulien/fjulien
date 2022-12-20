@@ -103,9 +103,11 @@ Etape pour apprendre:
 - - webpack
 - - viteJs
 - - Rollup
-- Programation functionnelle
-- POO
-- - Typescipte
+- Paradigme
+- - reactive
+- - Programation functionnelle
+- - POO
+- - - Typescipte
 - Tests
 - - TU
 - - TI
@@ -144,8 +146,7 @@ Etape pour apprendre:
 - - state management
 - - - Redux
 - - Observable
-- - - Reactif
-- - - - RXJS
+- - - rxjs
 - - Singluton
 - Linux
 - bases
