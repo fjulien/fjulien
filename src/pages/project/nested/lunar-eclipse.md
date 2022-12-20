@@ -61,6 +61,7 @@ Etape pour apprendre:
 - - - - - scope
 - - - - - var let const
 - - - - - Math
+- - - - - use strict
 - - - - primiteve
 - - - - - boolean
 - - - - - Number
@@ -69,6 +70,7 @@ Etape pour apprendre:
 - - - - - Synbol
 - - - - - NaN
 - - - - - Null
+- - - - - Circular
 - - - - Complexe
 - - - - - JSON
 - - - - - Array
@@ -87,6 +89,7 @@ Etape pour apprendre:
 - - - - - - native méthode
 - - - Destructuration
 - - - function
+- - - - Récursivité
 - - - - Arrow function
 - Data structure
 - Best practice
@@ -103,8 +106,24 @@ Etape pour apprendre:
 - Programation functionnelle
 - POO
 - - Typescipte
-- les tests code
-- Algorithimie en js
+- Tests
+- - TU
+- - TI
+- - e2e
+- - TDD
+- - 
+- Algor / ex0 en js
+- - NV 1
+- - - fizz buzz
+- - - Suite de finabochi
+- - - Compararaion de tableau
+- - - Clean duplication tableau 
+- - - Création d'un compteur
+- - - tri d'un tableau
+- - NV 2
+- - - Refaire les méthodes map, filter et sort de Array
+- - - Création d'une liste todo
+- - - Parcours d'arbre
 - Gestion de dépendances
 - - npm
 - - yarn
