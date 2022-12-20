@@ -24,6 +24,8 @@ Etape pour apprendre:
 - - navigatuer
 - - frontend
 - - - Composants
+- - - SPA et MPA
+- - - routage
 - - backend
 - - - API client
 - - - - apiRest
@@ -145,7 +147,18 @@ Etape pour apprendre:
 - Javascript frontend Framework | lib
 - - next
 - - Angular
+- - - bases
+- - - - composant
+- - - - SPA
+- - - - Routage
+- - - Rxjs
+- - - ReactiveForm
 - - React
+- - - bases
+- - - - composant
+- - - - SPA
+- - - - routage
+- - - Hooks
 - Paterns
 - - state management
 - - - Redux
