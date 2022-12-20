@@ -20,11 +20,15 @@ Etape pour apprendre:
 
 - Environement
 - - internet
+- - http / https
 - - navigatuer
 - - frontend
 - - - Composants
 - - backend
-
+- - - API client
+- - - - apiRest
+- - - - GraphQL
+- - - - WebSocket
 - - BDD
 - - - relationnel
 - - - non relationel
@@ -33,12 +37,23 @@ Etape pour apprendre:
 - - vsc
 - - gitpod
 - HTML
+- - Basic
 - - Accesibilité
 - - Sémantique
 - CSS
-- - SCSS
+- - basic
+- - flexbox
+- - grid
+- - responsive
+- - Preprocessors
+- - - SCSS
+- - Architecture
+- - - Atomic
 - Navigateur
-- Javascript (coté navigateur)
+- Javascript navigateur
+- - DOM manipulation
+- - Ecmascript
+- - ajax / xhr
 - - bases de language
 - - - Variable
 - - - - primiteve
@@ -54,13 +69,18 @@ Etape pour apprendre:
 - - - - - String
 - - - function
 - - - - Arrow function
+- Data structure
 - Best practice
+- - Complexité
 - - Convention d'écriture
 - - Découpage
 - - DRY
 - - KISS
 - - SOLID
-
+- Build tools js
+- - webpack
+- - viteJs
+- - Rollup
 - Programation functionnelle
 - POO
 - - Typescipte
@@ -83,10 +103,16 @@ Etape pour apprendre:
 - - Angular
 - - React
 - Paterns
+- - state management
+- - - Redux
 - - Observable
 - - - Reactif
 - - - - RXJS
 - - Singluton
+- Linux
+- bases
+- - terminal
+- - - Commande de base
 - Architecture
 - - Hexagonal
 - - 3 Tiers
