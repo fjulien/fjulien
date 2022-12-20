@@ -56,17 +56,36 @@ Etape pour apprendre:
 - - ajax / xhr
 - - bases de language
 - - - Variable
+- - - - basic
+- - - - - hoisting
+- - - - - scope
+- - - - - var let const
+- - - - - Math
 - - - - primiteve
 - - - - - boolean
 - - - - - Number
+- - - - - String
+- - - - - undefined
+- - - - - Synbol
+- - - - - NaN
+- - - - - Null
 - - - - Complexe
+- - - - - JSON
 - - - - - Array
+- - - - - - Basic
+- - - - - - Native méthodes
+- - - - - - - map
+- - - - - - - filter
+- - - - - - - reduce
+- - - - - - - autres
 - - - - - - Pointer mémoire
 - - - - - Map
 - - - - - Set
 - - - - - 
 - - - - - Object
-- - - - - String
+- - - - - - basic
+- - - - - - native méthode
+- - - Destructuration
 - - - function
 - - - - Arrow function
 - Data structure
