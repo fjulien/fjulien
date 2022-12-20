@@ -18,8 +18,20 @@ Liste des ressouce web pour apprendre:
 
 Etape pour apprendre:
 
-- Environement frontend & backend & BDD
+- Environement
+- - internet
+- - navigatuer
+- - frontend
+- - - Composants
+- - backend
+
+- - BDD
+- - - relationnel
+- - - non relationel
+- - - Graphique 
 - IDE
+- - vsc
+- - gitpod
 - HTML
 - - Accesibilité
 - - Sémantique
@@ -35,27 +47,49 @@ Etape pour apprendre:
 - - - - Complexe
 - - - - - Array
 - - - - - - Pointer mémoire
+- - - - - Map
+- - - - - Set
+- - - - - 
 - - - - - Object
 - - - - - String
 - - - function
+- - - - Arrow function
 - Best practice
 - - Convention d'écriture
 - - Découpage
+- - DRY
+- - KISS
+- - SOLID
+
 - Programation functionnelle
 - POO
 - - Typescipte
 - les tests code
 - Algorithimie en js
-- npm (package manager)
-- git
-- - github
-- - gitlab
-- - bitbucket
-- Javascript coté backend
-- Framework | lib
+- Gestion de dépendances
+- - npm
+- - yarn
+- - pnpm
+- Versionnage
+- - git
+- - - github
+- - - gitlab
+- - - bitbucket
+- Javascript framework backend
+- - express
+- - deno
+- Javascript frontend Framework | lib
 - - next
 - - Angular
 - - React
+- Paterns
+- - Observable
+- - - Reactif
+- - - - RXJS
+- - Singluton
+- Architecture
+- - Hexagonal
+- - 3 Tiers
 - Agilité SCRUM
 
 Cours sur openClassRoom:
