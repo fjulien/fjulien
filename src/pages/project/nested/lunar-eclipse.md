@@ -88,6 +88,10 @@ Etape pour apprendre:
 - - - - - - basic
 - - - - - - native méthode
 - - - Destructuration
+- - - Async / Promise
+- - - - Callback
+- - - - Fetch
+- - - - Async / Await
 - - - function
 - - - - Récursivité
 - - - - Arrow function
