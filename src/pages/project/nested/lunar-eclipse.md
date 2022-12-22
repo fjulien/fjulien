@@ -10,6 +10,8 @@ tags:
   - dev
 ---
 
+<Details >
+
 Liste des ressouce web pour apprendre:
 
 - OpenClassRoom:
@@ -111,6 +113,7 @@ Etape pour apprendre:
 - - - - function générator
 - - - - Récursivité
 - - - - Arrow function
+
 - Data structure
 - Best practice
 - - Complexité

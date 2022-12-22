@@ -6,3 +6,8 @@ export interface Project {
 	tags: string[];
 	img: string;
 }
+
+export interface DetailsType {
+	title:string;
+	contents: Array<string | DetailsType>;
+}

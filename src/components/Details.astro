@@ -1,0 +1,25 @@
+---
+import { log } from 'astro/dist/core/logger/core';
+import type { DetailsType } from '../types';
+import Details from './Details.astro'; 
+interface Props {
+	details: DetailsType;
+}
+
+const { title, contents} = Astro.props.details;
+
+function instanceOfStudent(data: any): data is DetailsType {
+    return typeof data !== 'string' && 'title' in data;
+}
+---
+
+<details>
+    <summary>{title}</summary>
+    <ul>
+        {contents.map((content)=>{
+            return instanceOfStudent(content)
+            ? (<li><Details details={content}/></li>)
+             :(<li>{content}</li>)
+        })}
+    </ul>
+</details>
