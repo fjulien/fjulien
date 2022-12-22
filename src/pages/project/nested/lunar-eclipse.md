@@ -90,11 +90,17 @@ Etape pour apprendre:
 - - - - - - basic
 - - - - - - native méthode
 - - - Destructuration
+- - - Spread Operator
+- - - closure
+- - - curring
 - - - Async / Promise
 - - - - Callback
 - - - - Fetch
 - - - - Async / Await
 - - - function
+- - - - Immediately Invoked
+- - - - callback
+- - - - 
 - - - - Récursivité
 - - - - Arrow function
 - Data structure
@@ -105,6 +111,7 @@ Etape pour apprendre:
 - - DRY
 - - KISS
 - - SOLID
+- - Pure function
 - Build tools js
 - - webpack
 - - viteJs
