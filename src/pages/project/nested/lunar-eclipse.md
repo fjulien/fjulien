@@ -57,14 +57,22 @@ Etape pour apprendre:
 - - Ecmascript
 - - ajax / xhr
 - - bases de language
+- - - basic
+- - - - hoisting
+- - - - scope
+- - - - var let const
+- - - - Math
+- - - - switch
+- - - - condition
+- - - - use strict
+- - - - boucle
+- - - - - for
+- - - - - for in
+- - - - - for of
+- - - - - while
+- - - - - do while
 - - - Variable
-- - - - basic
-- - - - - hoisting
-- - - - - scope
-- - - - - var let const
-- - - - - Math
-- - - - - use strict
-- - - - primiteve
+- - - - primitive
 - - - - - boolean
 - - - - - Number
 - - - - - String
@@ -78,6 +86,7 @@ Etape pour apprendre:
 - - - - - Array
 - - - - - - Basic
 - - - - - - Native méthodes
+- - - - - - - foreach
 - - - - - - - map
 - - - - - - - filter
 - - - - - - - reduce
@@ -85,7 +94,6 @@ Etape pour apprendre:
 - - - - - - Pointer mémoire
 - - - - - Map
 - - - - - Set
-- - - - - 
 - - - - - Object
 - - - - - - basic
 - - - - - - native méthode
@@ -100,7 +108,7 @@ Etape pour apprendre:
 - - - function
 - - - - Immediately Invoked
 - - - - callback
-- - - - 
+- - - - function générator
 - - - - Récursivité
 - - - - Arrow function
 - Data structure
