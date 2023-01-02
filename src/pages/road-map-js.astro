@@ -3,6 +3,7 @@ import Details from "../components/Details.astro";
 import Layout from "../components/Layout.astro";
 import { javascript } from "../resources/javascript";
 import type { DetailsType } from "../types";
+import '../styles/details.css'
 
 const environemnt: DetailsType = {
     title: "Environement",
@@ -172,7 +173,8 @@ const treeJavascript: DetailsType[] = [
     methodAgile,
 ];
 ---
-
 <Layout>
-    {treeJavascript.map((item) => <Details details={item} />)}
+    <div class="container">
+        {treeJavascript.map((item) => <Details details={item} />)}
+    </div>
 </Layout>
