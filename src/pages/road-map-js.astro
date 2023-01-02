@@ -1,6 +1,7 @@
 ---
 import Details from "../components/Details.astro";
 import Layout from "../components/Layout.astro";
+import { javascript } from "../resources/javascript";
 import type { DetailsType } from "../types";
 
 const environemnt: DetailsType = {
@@ -53,89 +54,7 @@ const css: DetailsType = {
         { title: "Architecture", contents: ["Atomic"] },
     ],
 };
-const js: DetailsType = {
-    title: "Javascript (navigateur)",
-    contents: [
-        "Ecmascript",
-        "DOM",
-        "AJAX",
-        "XHR",
-        {
-            title: "Base du language",
-            contents: [
-                "hoisting",
-                "scope",
-                "var / let / const",
-                "Math",
-                "switch",
-                "conditions",
-                "ternaire",
-                "operateur logique",
-                "use strict",
-                {
-                    title: "boucle",
-                    contents: ["for", "for in", "for of", "while", "do while"],
-                },
-                {
-                    title: "variable",
-                    contents: [
-                        {
-                            title: "primitive",
-                            contents: [
-                                "boolean",
-                                "number",
-                                "String",
-                                "undefined",
-                                "Synbol",
-                                "NaN",
-                                "null",
-                                "Circular",
-                            ],
-                        },
-                        {
-                            title: "Complexe",
-                            contents: [
-                                "JSON",
-                                "Map",
-                                "Set",
-                                "Proxi",
-                                {
-                                    title: "Array",
-                                    contents: [
-                                        "foreach",
-                                        "map",
-                                        "filter",
-                                        "reduce",
-                                        "autres",
-                                    ],
-                                },
-                                { title: "Object", contents: [] },
-                            ],
-                        },
-                    ],
-                },
 
-                "Destructuration",
-                "Spread opératuer",
-                "closue",
-                "Curring",
-                {
-                    title: "Asyncrone",
-                    contents: ["callback", "then", "async / await"],
-                },
-                {
-                    title: "Fonction",
-                    contents: [
-                        "Arrow",
-                        "Auto invoked",
-                        "generator",
-                        "r2cursiviter",
-                    ],
-                },
-            ],
-        },
-    ],
-};
 const dataStructure: DetailsType = { title: "Data structure", contents: [] };
 const bestPratice: DetailsType = {
     title: "bestPratice",
@@ -236,7 +155,7 @@ const treeJavascript: DetailsType[] = [
     ide,
     html,
     css,
-    js,
+    javascript,
     dataStructure,
     bestPratice,
     toolsOfBuild,
