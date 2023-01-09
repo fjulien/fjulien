@@ -4,7 +4,7 @@ import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 
-const { title = "Personal Site", description = "The personal site" } =
+const { title = "Personal Site", description = "The personal site", isContainer="true" } =
 	Astro.props;
 
 // Full Astro Component Syntax:
@@ -23,7 +23,7 @@ const { title = "Personal Site", description = "The personal site" } =
 	</head>
 	<body>
 		<Nav />
-		<main>
+		<main class={isContainer?'container' : ''}>
 			<slot />
 		</main>
 		<Footer />

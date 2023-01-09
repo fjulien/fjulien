@@ -1,0 +1,61 @@
+---
+import type { RoleType } from "../types";
+
+interface Props {
+  role: RoleType;
+}
+const { first, second } = Astro.props.role;
+---
+
+<span class="role">{first} <span class="invert">{second}</span></span>
+<style>
+  .role {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: 900;
+    color: var(--t-bg);
+    background-color: var(--t-fg);
+    padding: 0.25em 0.5em;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  @media (min-width: 750px) {
+    .role {
+      font-size: var(--f-u3);
+    }
+  }
+
+  .role:nth-of-type(1) .invert {
+    background-color: var(--c-pink);
+  }
+
+  .role:nth-of-type(2) .invert {
+    background-color: var(--c-blue);
+  }
+
+  .role:nth-of-type(3) .invert {
+    background-color: var(--c-green);
+  }
+
+  .role:hover .invert {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .invert {
+    position: absolute;
+    color: var(--t-fg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 200%, 0% 200%);
+    transition: clip-path cubic-bezier(0.4, 0, 0.5, 1) 150ms;
+  }
+</style>

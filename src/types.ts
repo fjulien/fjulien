@@ -11,3 +11,8 @@ export interface DetailsType {
 	title:string;
 	contents: Array<string | DetailsType>;
 }
+
+export interface RoleType {
+	first:string;
+	second:string;
+}
