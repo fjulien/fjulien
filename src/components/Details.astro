@@ -1,30 +1,46 @@
 ---
-import type { DetailsType } from "../types";
+import type { DetailLink, DetailsType } from "../types";
 import Details from "./Details.astro";
 interface Props {
   details: DetailsType;
 }
 
-const { title, contents } = Astro.props.details;
+const { title, contents, isOpen = false } = Astro.props.details;
 
-function instanceOfStudent(data: any): data is DetailsType {
-  return typeof data !== "string" && "title" in data;
+function instanceOfDetailsType(data: any): data is DetailsType {
+  return typeof data !== "string" && "contents" in data;
+}
+
+function instanceOfDetailLink(data: any): data is DetailLink {
+  return typeof data !== "string" && "url" in data;
 }
 ---
 
-<details>
+<details open={isOpen}>
   <summary>{title}</summary>
   <ul>
     {
       contents.map((content) => {
-        return instanceOfStudent(content) ? (
-          <li>
-            <Details details={content} />
-          </li>
-        ) : (
-          <li>{content}</li>
-        );
+        if (instanceOfDetailsType(content)) {
+          return (
+            <li>
+              <Details details={content} />
+            </li>
+          );
+        } else if (instanceOfDetailLink(content)) {
+          return (
+            <li>
+              <a class={content.isNew? 'new':''} href={content.url}>{content.title}</a>
+            </li>
+          );
+        }
+        return <li>{content}</li>;
       })
     }
   </ul>
 </details>
+<style>
+  .new{
+    color: red;
+  }
+</style>

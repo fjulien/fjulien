@@ -1,4 +1,4 @@
-export interface Project {
+export interface Article {
 	title: string;
 	client: string;
 	description: string;
@@ -7,9 +7,18 @@ export interface Project {
 	img: string;
 }
 
-export interface DetailsType {
-	title:string;
-	contents: Array<string | DetailsType>;
+interface Detail {
+	title: string;
+}
+
+export interface DetailLink extends Detail {
+	isNew?: boolean;
+	url:string;
+}
+
+export interface DetailsType extends Detail {
+	contents: Array<string | DetailsType | DetailLink>;
+	isOpen?: boolean;
 }
 
 export interface RoleType {

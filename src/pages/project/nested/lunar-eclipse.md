@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/project.astro
+layout: ../../../layouts/article.astro
 title: Apprendre les bases de JavaScript
 client: Self
 publishDate: 2020-03-04 00:00:00

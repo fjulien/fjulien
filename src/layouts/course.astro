@@ -1,0 +1,25 @@
+---
+import type { Project } from "../types";
+import Layout from "../components/Layout.astro";
+
+interface Props {
+	content: Project;
+}
+
+const { content } = Astro.props;
+---
+
+<Layout>
+	<!-- <header style={`background-image:url(${content.img})`} >
+		<h1 class="title">{content.title}</h1>
+	</header> -->
+	<div>
+		<div>
+			{content.tags.map((t) => <span class="tag">{t}</span>)}
+		</div>
+	</div>
+	<div >
+		<div><slot /></div>
+	</div>
+</Layout>
+

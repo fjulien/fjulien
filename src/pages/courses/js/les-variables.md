@@ -1,65 +1,52 @@
 ---
-import Code from "../components/Code.astro";
-import Layout from "../components/Layout.astro";
+layout: ../../../layouts/article.astro
+title: Les variables
+client: Self
+publishDate: 2020-03-04 00:00:00
+img: https://images.unsplash.com/photo-1548391350-1a529f6ea42d?fit=crop&w=1400&h=700&q=75
+description: Base de Javascript
+tags:
+  - js
+  - dev
+  # <a
+#     href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/JavaScript_basics#variables"
+#     target="_blank">Mozilla variables</a
+#   >
 ---
 
-<Layout>
-  <h2>Les variables</h2>
-  <a
-    href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/JavaScript_basics#variables"
-    target="_blank">Mozilla variables</a
-  >
+## Les variables
+  
   Les varibles servent à garder en mémoire une valeur (de tout type), la reutiliser,
   la modifier et finalement être suprimer.
-  <h3>Les bases</h3>
-  <h4>VAR</h4>
-  <p>
-    La déclaration <bold><abbr title="pour variable">var</abbr></bold> permet de
+  ### Les bases
+  #### VAR
+La déclaration <bold><abbr title="pour variable">var</abbr></bold> permet de
     déclarer une variable et éventuellement d'initialiser sa valeur.
-  </p>
-  <h4>LET</h4>
-  <p>
+  #### LET
+
     La déclaration <bold>let</bold> permet de déclarer une variable dont la portée
     est celle du bloc courant.
-  </p>
-  <h4>CONST</h4>
-  <p>
+
+  #### CONST
+
     La déclaration <bold>const</bold> permet de créer une constante accessible uniquement
     en lecture. La valeur d'une constante ne peut pas être modifiée par des réaffectations
     ultérieuresou ou être re-déclarée. Par contre ça valeur reste mutable indirectement.
-  </p>
-  <h3>Examples</h3>
-  <h4>Déclaration</h4>
-  <p>
+
+  ### Examples
+  #### Déclaration
+
     <Code
       content="var newVar; let newLet; const newConst = '' // Must be init;"
     />
-  </p>
-  <h4>Assignation</h4>
-  <p>
+ 
+#### Assignation
+
     <Code content="newVar = 'hello world var!'; newLet = 'Hello world let';" />
-  </p>
-  <h3>Convention de nommage</h3>
-  <p>
+
+  ### Convention de nommage
     Elle doit débuter avec une lettre, un tiret du bas, un symbole dollar et
     peut contenir des caractères numériques, alphabétiques et des tirets bas
     voire des caractères Unicode.
-  </p>
-  <h3>Pointer</h3>
-  <h3>Copie</h3>
-</Layout>
-<style>
-  bold {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  h3{
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
-    margin: 20px 0 40px 0;
-  }
-  h4{
-    margin:  50px 0 0px 25px;
-  }
-
-</style>
+  ### Pointer
+  ### Copie
