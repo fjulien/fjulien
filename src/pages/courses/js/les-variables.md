@@ -16,8 +16,16 @@ tags:
 
 ## Les variables
   
-  Les varibles servent à garder en mémoire une valeur (de tout type), la reutiliser,
-  la modifier et finalement être suprimer.
+  Les variables sont des symboles qui associent un nom (l'identifiant) à une valeur. Les variables peuvent changer de valeur au cours du temps (dynamique) ou au contraire être figées (constante).
+
+Plusieurs élements caratérise une variable:
+- Son nom
+- Son type
+- Sa valeure
+- Sa protée
+- Sa visibilitée
+- Sa durée de vie
+
   ### Les bases
   #### VAR
 La déclaration <bold><abbr title="pour variable">var</abbr></bold> permet de
@@ -44,9 +52,14 @@ La déclaration <bold><abbr title="pour variable">var</abbr></bold> permet de
 
     <Code content="newVar = 'hello world var!'; newLet = 'Hello world let';" />
 
+### Typage
+
+En javascript le typage est dynamique, ça veut dire qui ne peut changer à chaque réafectation
+
   ### Convention de nommage
     Elle doit débuter avec une lettre, un tiret du bas, un symbole dollar et
     peut contenir des caractères numériques, alphabétiques et des tirets bas
     voire des caractères Unicode.
-  ### Pointer
+  ### Les pointeurs
+Dans tous les langages qui permettent la création dynamique d'adresses (new en C++ ou Java), la notion de variable est complétée par la notion de pointeur (type de donnée associé à une variable, dont les valeurs sont des adresses). L'adresse contenue dans une variable de type pointeur peut être inaccessible au programmeur (PHP, Java,Python), ou directement accessible (C++)[Comment ?].
   ### Copie

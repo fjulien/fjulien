@@ -1,8 +1,11 @@
 ---
-import Details from "../components/Details.astro";
+import Details, {
+  instanceOfDetailLink,
+  instanceOfDetailsType,
+} from "../components/Details.astro";
 import Layout from "../components/Layout.astro";
 import { javascript } from "../resources/javascript";
-import type { DetailsType } from "../types";
+import type { DetailLink, DetailsType } from "../types";
 import "../styles/details.css";
 
 const environemnt: DetailsType = {
@@ -172,6 +175,22 @@ const treeJavascript: DetailsType[] = [
   architecture,
   methodAgile,
 ];
+function openNewContent(tree: Array<DetailsType | DetailLink | string>):boolean {
+  let dd = false
+  for (const key of tree) {
+    if (instanceOfDetailLink(key)) {
+      if (key.isNew) {
+        dd =  true;
+        break;
+      }
+    }
+    if (instanceOfDetailsType(key)) {
+      openNewContent(key.contents);
+      continue
+    }
+  }
+  return dd
+}
 ---
 
 <Layout>

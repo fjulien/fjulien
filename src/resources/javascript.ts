@@ -2,7 +2,6 @@ import type { DetailsType } from "../types";
 
 export const javascript: DetailsType = {
     title: "Javascript (navigateur)",
-    isOpen: true,
     contents: [
         "Ecmascript",
         "DOM",
@@ -10,7 +9,6 @@ export const javascript: DetailsType = {
         "XHR",
         {
             title: "Base du language",
-            isOpen: true,
             contents: [
                 "hoisting",
                 "scope",

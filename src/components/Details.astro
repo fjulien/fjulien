@@ -7,11 +7,11 @@ interface Props {
 
 const { title, contents, isOpen = false } = Astro.props.details;
 
-function instanceOfDetailsType(data: any): data is DetailsType {
+export function instanceOfDetailsType(data: any): data is DetailsType {
   return typeof data !== "string" && "contents" in data;
 }
 
-function instanceOfDetailLink(data: any): data is DetailLink {
+export function instanceOfDetailLink(data: any): data is DetailLink {
   return typeof data !== "string" && "url" in data;
 }
 ---
