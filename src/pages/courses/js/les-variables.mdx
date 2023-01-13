@@ -1,0 +1,157 @@
+---
+layout: ../../../layouts/article.astro
+title: Les variables
+client: Self
+publishDate: 2020-03-04 00:00:00
+img: https://images.unsplash.com/photo-1548391350-1a529f6ea42d?fit=crop&w=1400&h=700&q=75
+description: Base de Javascript
+tags:
+  - js
+  - dev
+  # <a
+#     href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/JavaScript_basics#variables"
+#     target="_blank">Mozilla variables</a
+#   >
+---
+
+## Les variables
+
+article
+Les variables en JavaScript sont un outil fondamental pour stocker des valeurs dans votre code. Elles vous permettent de donner un nom à une valeur spécifique, de sorte que vous pouvez référencer cette valeur plus tard dans votre code. Il existe trois façons de déclarer des variables en `var, let et const`.
+
+La déclaration de variable la plus courante est var. Elle permet de déclarer une variable qui peut être réaffectée à une nouvelle valeur plus tard dans le code. Par exemple:
+
+```javascript
+var maVariable;
+maVariable = "Ceci est une chaîne de caractères";
+maVariable = 42; // la variable peut être réaffectée à une nouvelle valeur
+```
+
+Les variables en JavaScript sont un outil fondamental pour stocker des valeurs dans votre code. Elles vous permettent de donner un nom à une valeur spécifique, de sorte que vous pouvez référencer cette valeur plus tard dans votre code. Il existe trois façons de déclarer des variables en <code>var, let et const;</code>.
+
+La déclaration de variable la plus courante est var. Elle permet de déclarer une variable qui peut être réaffectée à une nouvelle valeur plus tard dans le code. Par exemple:
+
+```javascript
+var maVariable;
+maVariable = "Ceci est une chaîne de caractères";
+maVariable = 42; // la variable peut être réaffectée à une nouvelle valeur
+```
+
+Il est à noter que les variables déclarées avec var ont une portée de fonction, c'est-à-dire qu'elles sont accessibles dans toute la fonction ou dans le script où elles ont été déclarées, même si elles ont été déclarées à l'intérieur d'un bloc.
+
+Depuis ECMAScript 6, il est possible de déclarer des variables avec let et const. let permet de déclarer une variable qui peut être réaffectée à une nouvelle valeur plus tard dans le code, tandis que const déclare une variable qui ne peut pas être réaffectée.
+
+```javascript
+let maVariable2 = "Ceci est une autre chaîne de caractères";
+maVariable2 = "Nouvelle valeur"; // la variable peut être réaffectée
+
+const maVariable3 = "Ceci est une chaîne de caractères";
+maVariable3 = "Nouvelle valeur"; // cela va générer une erreur
+```
+
+Il est important de noter que les variables déclarées avec let et const ont une portée de bloc, c'est-à-dire qu'elles sont uniquement accessibles dans le bloc où elles ont été déclarées.
+
+Il existe plusieurs types de données que vous pouvez stocker dans des variables, tels que des chaînes de caractères, des nombres, des booléens, des tableaux et des objets. Il est important de choisir des noms de variables descriptifs pour faciliter la compréhension de votre code. Il est également recommandé d'utiliser let et const à la place de var car ils ont un comportement plus prévisible et sont plus sûrs à utiliser.
+
+En résumé, les variables en JavaScript sont un outil indispensable pour stocker des valeurs dans votre code. Il existe trois façons de les déclarer: var, let et const. Chacune de ces déclarations a des caractéristiques différentes, mais elles ont toutes pour but de stocker des valeurs qui peuvent être référencées plus tard dans le code. Il est important de comprendre les différences entre ces déclarations de variables et de choisir la plus appropriée en fonction de vos besoins.
+
+En utilisant var, vous pouvez déclarer une variable qui peut être réaffectée à une nouvelle valeur plus tard dans le code, mais elle a une portée de fonction, c'est-à-dire qu'elle est accessible dans toute la fonction ou dans le script où elle a été déclarée, même si elle a été déclarée à l'intérieur d'un bloc.
+
+Avec let, vous pouvez déclarer une variable qui peut être réaffectée à une nouvelle valeur plus tard dans le code, et elle a une portée de bloc, c'est-à-dire qu'elle est uniquement accessible dans le bloc où elle a été déclarée.
+
+En utilisant const, vous pouvez déclarer une variable qui ne peut pas être réaffectée, elle a également une portée de bloc.
+
+Il est important de choisir des noms de variables descriptifs pour faciliter la compréhension de votre code. Il est également recommandé d'utiliser let et const à la place de var car ils ont un comportement plus prévisible et sont plus sûrs à utiliser.
+
+En résumé, les variables en JavaScript sont un outil fondamental pour stocker des valeurs dans votre code. Il est important de comprendre les différences entre les différentes déclarations de variables et de choisir la plus appropriée en fonction de vos besoins. Il est également important de choisir des noms de variables descriptifs et de pratiquer régulièrement pour devenir un meilleur développeur JavaScript.
+
+
+
+
+apprednre
+Bien sûr ! Les variables en JavaScript sont utilisées pour stocker des valeurs, que vous pouvez utiliser et réutiliser dans votre code. Voici comment déclarer une variable en JavaScript :
+
+```javascript
+// Utilisez le mot-clé "var" pour déclarer une variable
+var maVariable;
+
+// Affectez une valeur à une variable en utilisant le signe "="
+maVariable = "Ceci est une chaîne de caractères";
+
+// Vous pouvez également déclarer une variable et lui affecter une valeur en même temps
+var maVariable2 = "Ceci est une autre chaîne de caractères";
+Il est également possible de déclarer une variable en utilisant les mots-clés let ou const.
+
+Copy code
+// Utilisez le mot-clé "let" pour déclarer une variable qui peut être réassignée
+let maVariable3;
+maVariable3 = "Ceci est une chaîne de caractères";
+maVariable3 = "Nouvelle valeur";
+
+// Utilisez le mot-clé "const" pour déclarer une variable qui ne peut pas être réassignée
+const maVariable4 = "Ceci est une chaîne de caractères";
+maVariable4 = "Nouvelle valeur"; // cela va générer une erreur
+```
+Il est important de noter que les variables déclarées avec var ont une portée différente de celles déclarées avec let et const, let et const ont une portée de bloc. Il est également important de choisir des noms de variables descriptifs pour faciliter la compréhension de votre code.
+
+Il existe plusieurs types de données que vous pouvez stocker dans des variables, tels que des chaînes de caractères, des nombres, des booléens, des tableaux et des objets.
+
+Il est recommandé de utiliser let et const à la place de var car ils ont un comportement plus prévisible et sont plus sûrs à utiliser.
+
+
+
+
+
+
+
+
+
+
+  
+  Les variables sont des symboles qui associent un nom (l'identifiant) à une valeur. Les variables peuvent changer de valeur au cours du temps (dynamique) ou au contraire être figées (constante).
+
+Plusieurs élements caratérise une variable:
+- Son nom
+- Son type
+- Sa valeure
+- Sa protée
+- Sa visibilitée
+- Sa durée de vie
+
+  ### Les bases
+  #### VAR
+La déclaration <bold><abbr title="pour variable">var</abbr></bold> permet de
+    déclarer une variable et éventuellement d'initialiser sa valeur.
+  #### LET
+
+    La déclaration <bold>let</bold> permet de déclarer une variable dont la portée
+    est celle du bloc courant.
+
+  #### CONST
+
+    La déclaration <bold>const</bold> permet de créer une constante accessible uniquement
+    en lecture. La valeur d'une constante ne peut pas être modifiée par des réaffectations
+    ultérieuresou ou être re-déclarée. Par contre ça valeur reste mutable indirectement.
+
+  ### Examples
+  #### Déclaration
+
+   
+      content="var newVar; let newLet; const newConst = '' // Must be init;"
+    
+ 
+#### Assignation
+
+    content="newVar = 'hello world var!'; newLet = 'Hello world let';" 
+
+### Typage
+
+En javascript le typage est dynamique, ça veut dire qui ne peut changer à chaque réafectation
+
+  ### Convention de nommage
+    Elle doit débuter avec une lettre, un tiret du bas, un symbole dollar et
+    peut contenir des caractères numériques, alphabétiques et des tirets bas
+    voire des caractères Unicode.
+  ### Les pointeurs
+Dans tous les langages qui permettent la création dynamique d'adresses (new en C++ ou Java), la notion de variable est complétée par la notion de pointeur (type de donnée associé à une variable, dont les valeurs sont des adresses). L'adresse contenue dans une variable de type pointeur peut être inaccessible au programmeur (PHP, Java,Python), ou directement accessible (C++)[Comment ?].
+  ### Copie

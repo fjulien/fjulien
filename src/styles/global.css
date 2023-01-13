@@ -93,4 +93,14 @@ h1 {
 	padding-right: 2rem;
 }
 
+code:not(:has(span)) {
+	background-color: hsl(210, 8%, 90%);
+	color: hsl(210, 8%, 15%);
+	padding: 5px;
+	border-radius: 5px;
+}
 
+pre {
+	padding: 15px;
+	border-radius: 5px;
+}

@@ -6,8 +6,7 @@ const conentsByRow = Astro.props.content.split(";");
 conentsByRow.pop();
 ---
 
-<pre
-  class="codes"><ol>{conentsByRow.map((row)=>(<li><code>{row.trim()};</code></li>))}</ol></pre>
+<pre><ol>{conentsByRow.map((row)=>(<li><code>{row.trim()};</code></li>))}</ol></pre>
 <style>
   pre .str,
   code .str {
@@ -54,19 +53,6 @@ conentsByRow.pop();
   code .dec {
     color: #3387cc;
   } /* decimal - blue */
-
-  pre.codes {
-    background-color: #000;
-    border-radius: 8px;
-    color: white;
-  }
-
-  pre.codes {
-    width: 50vw;
-  
-    padding: 1em;
-    white-space: pre-wrap;
-  }
 
   /* Specify class=linenums on a pre to get line numbering */
   ol.linenums {
